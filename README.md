@@ -1,7 +1,15 @@
 stripe
 ======
 
-stripe & flask example
+''stripe & flask example''
+
+Install:
+<code>
+$ sudo apt-get install python-pip python-dev build-essential 
+$ sudo pip install --upgrade pip 
+$ sudo pip install --index-url https://code.stripe.com --upgrade stripe
+$ sudo pip install flask
+</code>
 
 To execute application:
 
