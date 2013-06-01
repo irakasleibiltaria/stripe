@@ -9,7 +9,8 @@
 
     <script src="https://checkout.stripe.com/v2/checkout.js" class="stripe-button"
             data-key="{{ key }}"
-            data-description="Ordaiketa A Flask Charge"
-            data-amount="500"></script>
+            data-description="Ordaiketa"
+            data-amount="500"
+            data-image="{{ url_for('static', filename='thesberdin_icon.png') }}"></script>
   </form>
 {% endblock %}
