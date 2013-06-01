@@ -13,5 +13,14 @@ $ sudo pip install flask
 
 To execute application:
 ``` bash
-$ PUBLISHABLE_KEY=pk_test_iexVciJR4HdX9b7K3jD9ujos SECRET_KEY=sk_test_CUZBBxAZZQyXxcqOIZaBEQ4m python app.py
+$ PUBLISHABLE_KEY=pk_test_... SECRET_KEY=sk_test_... python app.py
 ```
+
+Use:
+
+``` html
+Embedded Form:
+http://server/
+
+Custom Form:
+http://server/customform
