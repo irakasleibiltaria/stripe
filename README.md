@@ -3,10 +3,28 @@ stripe
 
 ###stripe & flask example
 
-Install flask python stripe:
+Install:
 ``` bash
 $ sudo apt-get install python-pip python-dev build-essential 
 $ sudo pip install --upgrade pip 
+```
+
+``` bash
+$ sudo apt-get install python-virtualenv
+```
+
+Create an environment:
+```bash
+$ mkdir myproject
+$ cd myproject
+$ virtualenv venv
+```
+
+```bash
+$ . venv/bin/activate
+```
+
+```bash
 $ sudo pip install --index-url https://code.stripe.com --upgrade stripe
 $ sudo pip install flask
 ```
