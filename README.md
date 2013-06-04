@@ -17,6 +17,10 @@ Create an environment:
 ```bash
 $ mkdir myproject
 $ cd myproject
+OR
+$ git clone https://github.com/irakasleibiltaria/stripe.git
+$ cd stripe
+
 $ virtualenv venv
 ```
 
