@@ -29,8 +29,8 @@ $ . venv/bin/activate
 ```
 
 ```bash
-$ pip install --index-url https://code.stripe.com --upgrade stripe
 $ pip install flask
+$ pip install --index-url https://code.stripe.com --upgrade stripe
 ```
 
 To execute application:
