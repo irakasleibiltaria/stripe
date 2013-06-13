@@ -36,9 +36,10 @@ def charge():
 
 @app.route('/customform')
 def customform():
-    # custom form 
+    # custom form
     return render_template('StripeTutorialPage.html', key=stripe_keys['publishable_key'])
 
 if __name__ == '__main__':
-    #app.run(debug=True)
-	app.run(host='0.0.0.0', debug=True)
+    app.run(debug=True)
+    app.run()
+	#app.run(host='0.0.0.0')
